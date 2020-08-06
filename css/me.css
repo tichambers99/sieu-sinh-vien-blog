@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0}
+
+#scroll-header {
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: none;
+}
+
+#scroll-header i.fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+    transition: 0.4s;
+}
+
+#scroll-header:hover i {
+    font-size: 20px;
+    color: red;
+}
+
+.show{
+    display: block !important;
+}
+
